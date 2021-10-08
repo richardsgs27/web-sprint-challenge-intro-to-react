@@ -2,13 +2,14 @@
 import React from "react";
 import styled from "styled-components";
 
+
 const ReactWars = styled.div`
-  background-color: #debd9288;
-  padding: 0.25em 2em;
-  margin: 2em auto;
-  width: 90%;
-  text-align: left;
-  border: 2px solid #e4a654;
+background-color: #debd9288;
+padding: 0.25em 2em;
+  margin: 3em auto;
+  width: 80%;
+  text-align: center;
+  border: 5px solid orange;
 `;
 
 const Character = (props) => {
